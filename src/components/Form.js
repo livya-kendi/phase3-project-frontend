@@ -28,6 +28,8 @@ function Form() {
         })
     }
 
+    //Allow user to be able to delete submission
+    
     return (
         <div id="submit-form">
             <form onSubmit={e => handleSubmit(e)}>

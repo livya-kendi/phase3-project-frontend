@@ -8,6 +8,7 @@ import Error from "./Error";
 import Random from "./Random";
 import Form from "./Form";
 import All from "./All";
+import Submission from "./Submission";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route>
             <Error />
+          </Route>
+          <Route>
+            <Submission />
           </Route>
         </Switch>
       </div>
