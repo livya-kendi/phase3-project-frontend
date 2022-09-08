@@ -29,17 +29,32 @@ function Form() {
     }
 
     //Allow user to be able to delete submission
-    
+
+    function handleDelete(id) {
+        fetch(`http://localhost:9292/comments/${id}`, {
+            method: "DELETE"
+        })
+        .then(setSummissionDetails(formData.filter(formData => formData.id !== id)))
+    }
+
     return (
         <div id="submit-form">
             <form onSubmit={e => handleSubmit(e)}>
-                <label>Advice: </label>
+                <label>Add Your iCare: </label>
                 <input name="words" type="text" placeholder="Be nice 💖" onChange={e => handleChange(e)} />
                 <label>User: </label>
                 <input name="user" type="text" placeholder="What's Your Name?" onChange={e => handleChange(e)} />
                 <input type="submit" value="Submit" />
+
                 {submissionDetails.user ? <h1>Thank you {submissionDetails.user} for the iCare! "{submissionDetails.word}" is great advice!</h1> : null}
             </form>
+        </div>
+    )
+
+    return (
+        <div className="comment" key={data}>
+            <p>{data} -<em>{user}</em></p>
+            <button onClick={() => handleDelete(formData)}>🗑️</button>
         </div>
     )
 }
