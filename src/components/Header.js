@@ -3,7 +3,7 @@ import React from "react";
 function Header () {
     return (
         <header className="App-header">
-            <h1>💖 Words of Wisdom 💖</h1>
+            <h1>💖 iCare 💖</h1>
         </header>
     )
 }

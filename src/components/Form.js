@@ -36,7 +36,7 @@ function Form() {
                 <label>User: </label>
                 <input name="user" type="text" placeholder="What's Your Name?" onChange={e => handleChange(e)} />
                 <input type="submit" value="Submit" />
-                {submissionDetails.user ? <h1>Thank you {submissionDetails.user} for the W.o.W! "{submissionDetails.word}" is great advice!</h1> : null}
+                {submissionDetails.user ? <h1>Thank you {submissionDetails.user} for the iCare! "{submissionDetails.word}" is great advice!</h1> : null}
             </form>
         </div>
     )
