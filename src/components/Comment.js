@@ -2,7 +2,7 @@ import React from "react";
 
 function Comment({comments, setComments}) {
     function handleDelete(id) {
-        fetch(`http://localhost:9292/comments/${id}`, {
+        fetch(`https://icare-kenya.herokuapp.com/comments/${id}`, {
             method: "DELETE"
         })
         .then(setComments(comments.filter(comment => comment.id !== id)))

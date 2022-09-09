@@ -16,7 +16,7 @@ function CommentForm({word_id, comments, setComments}) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        fetch(`http://localhost:9292/words/${word_id}/comments`, {
+        fetch(`https://icare-kenya.herokuapp.com/${word_id}/comments`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(formData)

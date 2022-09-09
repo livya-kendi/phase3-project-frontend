@@ -16,7 +16,7 @@ function Form() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        fetch("http://localhost:9292/words", {
+        fetch("https://icare-kenya.herokuapp.com/words", {
             method: "POST",
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(formData)

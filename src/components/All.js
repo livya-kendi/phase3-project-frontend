@@ -4,7 +4,7 @@ function All() {
     const [advice, setAdvice] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:9292/words")
+        fetch("https://icare-kenya.herokuapp.com/words")
         .then(resp => resp.json())
         .then(data => setAdvice(data))
     }, [])

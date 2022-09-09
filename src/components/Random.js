@@ -13,7 +13,7 @@ function Random() {
     const [comments, setComments] = useState([])
 
     function fetchAdvice() {
-        fetch(`http://localhost:9292/words/random`)
+        fetch(`https://icare-kenya.herokuapp.com/words/random`)
         .then(resp => resp.json())
         .then(data => {
             setWordObj(data)
