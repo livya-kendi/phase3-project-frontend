@@ -26,4 +26,5 @@ Under the 'Random iCare', a user can generate a random iCare together with its c
 # Conclusion
 This project was made to practice creating and using a relational database and API using Ruby, Active Record, and Sinatra to create a fullstack program where the front end was made with using React.
 
-## Checkout the backend here: https://github.com/livya-kendi/Backend-phase3-project.git
+## Checkout the backend here: 
+https://github.com/livya-kendi/Backend-phase3-project.git
