@@ -13,4 +13,8 @@ The website will thank the user by name and let them know that their iCare is hi
 
 <img src='./Post.png' alt='Posting' />
 
+# Browse iCare
+Users can see all advice posted in the "All iCare" page. They can even see their own iCare if they posted one.
+
+<img src='./Browse.png' alt='Browse' />
 
