@@ -13,8 +13,17 @@ The website will thank the user by name and let them know that their iCare is hi
 
 <img src='./Post.png' alt='Posting' />
 
-# Browse iCare
+# Browse all iCare
 Users can see all advice posted in the "All iCare" page. They can even see their own iCare if they posted one.
 
 <img src='./Browse.png' alt='Browse' />
 
+# iCare + its Comments
+Under the 'Random iCare', a user can generate a random iCare together with its comments if any. The iCares are generated randomly by the program and the user may delete any comment they seem unfit for the website. So no haters allowed!!
+
+<img src='./Comments.png' alt='Comments' />
+
+# Conclusion
+This project was made to practice creating and using a relational database and API using Ruby, Active Record, and Sinatra to create a fullstack program where the front end was made with using React.
+
+## Checkout the backend here: https://github.com/livya-kendi/Backend-phase3-project.git
